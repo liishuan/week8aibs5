@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Saira+Extra+Condensed:wght@300&family=Shrikhand&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google icon -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0"
+    />
+    <!-- swipe要載入的cdn -->
+    <!-- scrooler cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="  https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css"
+    />
+    <script type="module" crossorigin src="/week8aibs5/assets/main-077b7f71.js"></script>
+    <link rel="stylesheet" href="/week8aibs5/assets/main-59fc2e5f.css">
+  </head>
+
+  <body>
+    <div class="bg-nav border-bottom">
+  <div class="container">
+    <nav class="navbar bg-nav">
+      <div
+        class="container-fluid d-flex justify-content-between align-items-center"
+      >
+        <h1 class="mb-0">
+          <a
+            class="navbar-brand Shrikhand text-secondary fs-8 me-0"
+            href="../pages/index.html"
+            >ALPHABOX+</a
+          >
+        </h1>
+
+        <!-- md以下不見 -->
+        <ul class="d-md-flex list-unstyled mb-0 d-none">
+          <li class="me-10 Noto fw-semibold mb-1">
+            <a class="text-secondary" aria-current="page" href="#">產品</a>
+          </li>
+
+          <li class="me-10 Noto fw-semibold mb-1">
+            <a class="text-secondary" href="#">關於我們</a>
+          </li>
+
+          <li class="me-10 Noto fw-semibold mb-1">
+            <a class="text-secondary" href="../pages/news.html">最新消息</a>
+          </li>
+
+          <li class="me-10 Noto fw-semibold mb-1">
+            <a class="text-secondary" href="#">FAQ</a>
+          </li>
+
+          <li class="Noto fw-semibold mb-1">
+            <a class="text-secondary" href="#">聯絡我們</a>
+          </li>
+        </ul>
+
+        <!-- sm以下不見 -->
+        <ul class="d-md-flex list-unstyled align-items-center mb-0 d-none">
+          <li class="me-10 Noto fw-semibold mb-1">
+            <a class="text-secondary" href="#">註冊</a>
+          </li>
+
+          <li class="me-10 Noto fw-semibold mb-1">
+            <a class="text-secondary" href="#">登入</a>
+          </li>
+
+          <li class="Noto fw-semibold">
+            <a
+              class="btn btn-sm btn-secondary text-black d-flex align-items-center justify-content-center mx-auto"
+              href="#"
+            >
+              <span class="material-symbols-outlined me-1"> point_scan </span>
+              訂閱
+            </a>
+          </li>
+        </ul>
+
+        <!-- 漢堡按鈕不動 -->
+        <!-- md以上不見 -->
+        <button
+          class="navbar-toggler d-md-none"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- 漢堡按鈕裡面的header -->
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header bg-nav">
+            <h5
+              class="offcanvas-title Shrikhand fs-6 text-secondary"
+              id="offcanvasNavbarLabel"
+            >
+              ALPHABOX+
+            </h5>
+
+            <!-- 漢堡按鈕 -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+
+          <!-- 漢堡按鈕裡面的body -->
+
+          <div class="offcanvas-body bg-g-nav">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item text-center Noto fw-semibold mb-1">
+                <a class="nav-link text-secondary" aria-current="page" href="#"
+                  >產品</a
+                >
+              </li>
+
+              <li class="nav-item text-center Noto fw-semibold mb-1">
+                <a class="nav-link text-secondary" href="#">關於我們</a>
+              </li>
+
+              <li class="nav-item text-center Noto fw-semibold mb-1">
+                <a class="nav-link text-secondary" href="#">最新消息</a>
+              </li>
+
+              <li class="nav-item text-center Noto fw-semibold mb-1">
+                <a class="nav-link text-secondary" href="#">FAQ</a>
+              </li>
+
+              <li class="nav-item text-center Noto fw-semibold mb-1">
+                <a class="nav-link text-secondary" href="#">聯絡我們</a>
+              </li>
+
+              <li class="nav-item text-center Noto fw-semibold mb-1">
+                <a class="nav-link text-secondary" href="#">註冊</a>
+              </li>
+
+              <li class="nav-item text-center Noto fw-semibold mb-1">
+                <a class="nav-link text-secondary" href="#">登入</a>
+              </li>
+
+              <!-- 還差一個btn -->
+              <li class="nav-item text-center Noto fw-semibold">
+                <a
+                  class="nav-link btn btn-sm btn-secondary text-black d-flex align-items-center justify-content-center mx-auto"
+                  href="#"
+                >
+                  <span class="material-symbols-outlined me-1">
+                    point_scan
+                  </span>
+                  訂閱
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!-- 第一塊＋第二塊 的 banner-->
+
+    <div class="wrap">
+      <!-- 第一塊 -->
+      <div class="bg-1 d-flex flex-column">
+        <!-- 疊在第一塊＋第二塊背景上面的內容 -->
+        <div class="container-fluid">
+          <!-- 第一塊內容 （上）開始 -->
+          <div class="row d-flex pt-md-14 pt-7 mb-n18">
+            <!-- 左1 -->
+            <div class="pb-md-38 pb-8 align-self-end col-md-3">
+              <p class="border-top border-1 border-secondary Noto fw-bold">
+                ALPHABOX+ STUDIO
+              </p>
+
+              <p
+                class="d-none d-md-flex border-bottom border-1 border-secondary pb-2"
+              >
+                最新消息！新版本 v15.4 釋出，搶先體驗！
+              </p>
+            </div>
+            <!-- 左2 -->
+            <div class="d-flex flex-column justify-content-between col-md-6">
+              <!-- 旋轉東東 -->
+              <div class="container mb-14">
+                <img
+                  src="/week8aibs5/assets/circle-10d6fa5f.png"
+                  alt="ALPHABOX+"
+                  class="d-block alphaboxCircle img-fluid mx-auto"
+                />
+              </div>
+              <!-- 標題 -->
+
+              <div class="d-flex flex-column">
+                <h3 class="Shrikhand d-flex justify-content-between">
+                  <span>A</span>
+                  <span>L</span>
+                  <span>P</span>
+                  <span>H</span>
+                  <span>A</span>
+                  <span>B</span>
+                  <span>O</span>
+                  <span>X</span>
+                  <span>+</span>
+                </h3>
+                <p class="Noto d-flex justify-content-between px-lg-22">
+                  <span>擁</span>
+                  <span>抱</span>
+                  <span>未</span>
+                  <span>來</span>
+                  <span>科</span>
+                  <span>技</span>
+                  <span>，</span>
+                  <span>專</span>
+                  <span>屬</span>
+                  <span>您</span>
+                  <span>的</span>
+                  <span>3</span>
+                  <span>D</span>
+                  <span>立</span>
+                  <span>體</span>
+                  <span>投</span>
+                  <span>影</span>
+                  <span>陪</span>
+                  <span>伴</span>
+                  <span>機</span>
+                  <span>器</span>
+                  <span>人</span>
+                </p>
+              </div>
+            </div>
+
+            <!-- 左3 -->
+            <div
+              class="d-flex flex-column pt-14 justify-content-between pb-md-38 pb-8 col-md-3"
+            >
+              <p class="d-none d-md-flex border-top border-1 border-secondary">
+                ALPHABOX+ STUDIO
+              </p>
+              <p class="text-darkPurple d-none d-md-flex">
+                Copyright © 2023 Hexschool.
+              </p>
+            </div>
+          </div>
+          <!-- 第一塊內容 （上）結束 -->
+
+          <!-- 第一塊內容 （下）開始 -->
+          <div class="row">
+            <div class="col-md-3 mb-4 mb-md-0">
+              <div class="figure figureBig figure-1">
+                <h3 class="text-secondary Shrikhand mt-4 text-center">Diane</h3>
+              </div>
+            </div>
+
+            <div class="col-md-6 mb-4 mb-md-0 align-self-end">
+              <div class="row">
+                <div class="col-md-6 mb-4 mb-md-0">
+                  <div class="figure figureSmall figure-2">
+                    <h3 class="text-secondary Shrikhand mt-4 text-center">
+                      Felix
+                    </h3>
+                  </div>
+                </div>
+
+                <div class="col-md-6 mb-4 mb-md-0">
+                  <div class="figure figureSmall figure-3">
+                    <h3 class="text-secondary Shrikhand mt-4 text-center">
+                      Karina
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-4 mb-md-0">
+              <div class="figure figureBig figure-4">
+                <h3 class="text-secondary Shrikhand mt-4 text-center">Vito</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 第一塊內容 （下）結束 -->
+      </div>
+      <!-- 第二塊 -->
+
+      <div class="bg-3">
+        <div class="bg-2"></div>
+        <!-- <img src="../assets/images/carousel_background.png" alt="" /> -->
+        <!-- 第二塊內容 開始-->
+        <div class="content container-fluid">
+          <div class="row d-flex flex-column">
+            <!-- 上邊框 -->
+            <div class="bar col-12 mt-10"></div>
+            <!-- 標題：什麼是alphabox -->
+            <div class="col-12 d-flex flex-column">
+              <h2 class="ls-12 mt-2 mx-md-10 mx-3">什麼是</h2>
+              <h2 class="mt-3 mb-12 px-md-10 px-3 border-bottom border-1 pb-4">
+                ALPHABOX+
+              </h2>
+            </div>
+            <!-- 出不來QAQ Swipers-->
+            <!-- <div class="col-12 align-items-center justify-content-between">
+             
+              <div class="row d-flex align-items-center justify-content-center"> -->
+            <!--  左箭頭  -->
+            <!-- <div class="col-1 d-none d-md-block">
+                  <div class="swiper-button-prev">
+                    <img
+                      src="https://hackmd.io/_uploads/BJUmHUm6n.png"
+                      alt="left arrow"
+                      class="img-fluid rotate"
+                    />
+                  </div>
+                </div> -->
+
+            <!--   Slides   -->
+            <!-- <div class="col-md-9 mt-3">
+                  <div class="swiper swiper1">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div
+                          class="alphabox d-flex flex-column align-items-start align-items-md-end justify-content-end justify-content-md-center"
+                        >
+                          <div class="alphabox-intro">
+                            <h3 class="lh-base text-md-end mb-3">
+                              <span class="font-Shrikhand fs-96">01</span><br />
+                              <span class="alphabox-title">立體投影技術</span>
+                            </h3>
+                            <p class="mb-0">
+                              透過高科技立體投影技術，讓您感受真實的科技世界。
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div
+                          class="alphabox d-flex flex-column align-items-start align-items-md-end justify-content-end justify-content-md-center"
+                        >
+                          <div class="alphabox-intro">
+                            <h3 class="lh-base text-md-end mb-3">
+                              <span class="font-Shrikhand fs-96">02</span><br />
+                              <span class="alphabox-title">立體投影技術</span>
+                            </h3>
+                            <p class="mb-0">
+                              透過高科技立體投影技術，讓您感受真實的科技世界。
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div
+                          class="alphabox d-flex flex-column align-items-start align-items-md-end justify-content-end justify-content-md-center"
+                        >
+                          <div class="alphabox-intro">
+                            <h3 class="lh-base text-md-end mb-3">
+                              <span class="font-Shrikhand fs-96">03</span><br />
+                              <span class="alphabox-title">立體投影技術</span>
+                            </h3>
+                            <p class="mb-0">
+                              透過高科技立體投影技術，讓您感受真實的科技世界。
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+            <!--  右箭頭  -->
+            <!-- <div class="col-1 d-none d-md-block">
+                  <div class="swiper-button-next">
+                    <img
+                      src="https://hackmd.io/_uploads/BJUmHUm6n.png"
+                      alt="right arrow"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div> -->
+
+            <!-- 切一個出來裝裝樣字ＱＡＱ -->
+
+            <div class="row align-items-center">
+              <div class="col-1">
+                <img
+                  src="https://hackmd.io/_uploads/BJUmHUm6n.png"
+                  alt="left arrow"
+                  class="img-fluid rotate"
+                />
+              </div>
+              <div
+                class="col-10 carousel d-flex align-items-center justify-content-end pe-10"
+              >
+                <div class="d-flex flex-column align-items-end">
+                  <h3 class="lh-base text-md-end mb-3">
+                    <span class="Shrikhand fs-24">01</span><br />
+                    <span class="">立體投影技術</span>
+                  </h3>
+                  <p class="mb-0">
+                    透過高科技立體投影技術，讓您感受真實的科技世界。
+                  </p>
+                </div>
+              </div>
+              <div class="col-1">
+                <img
+                  src="https://hackmd.io/_uploads/BJUmHUm6n.png"
+                  alt="right arrow"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+
+            <!-- 下邊框 -->
+            <div class="col-12 bar mt-8"></div>
+          </div>
+          <!-- 第二塊內容 結束-->
+        </div>
+      </div>
+    </div>
+
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!-- 第二塊 news -->
+    <div class="bg-4 px-3 p-md-0">
+      <div class="container d-flex flex-column">
+        <div class="row">
+          <h2
+            class="pb-md-10 pb-8 pt-md-40 pt-15 fw-bold ls-12 mx-3 text-center text-md-start"
+          >
+            最新消息
+          </h2>
+        </div>
+
+        <div
+          class="row py-10 justify-content-between align-items-center border-top border-1"
+        >
+          <div class="d-flex flex-column col-md-9">
+            <p class="d-flex align-items-center fs-4 fw-bold ls-5 mb-2">
+              <span class="material-symbols-outlined me-4"> emergency </span
+              >2023.06.30
+            </p>
+            <p class="fs-5 mb-3 fw-bold ls-5">產品升級公告</p>
+
+            <p class="col-md-9 fw-bold mb-3">
+              榮幸地宣布，ALPHABOX+
+              已成功完成最新一代的升級！本次升級包括提升投影解析度、優化語音辨識技術，以及擴充情感識別功能。歡迎您了解本次升級帶來的更為卓越的性能！
+            </p>
+          </div>
+
+          <div class="d-flex flex-column col-md-3">
+            <a href="#">
+              <img
+                class="align-self-start align-self-md-end"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMQAAAAYCAYAAAClWlI/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC0SURBVHgB7dlBDcJAEAXQKQqQgBQkIAEJOAAUgANwggQkUAdIWLZlE0oTrlzmvWQOPfT483dnIwAAAABgqpSyrbMKYAzEqs5jCEYAYyjO5e2uLUivhmBZ51k+9gGZ1RDsyreHtiC1FoK50zwY3eSHEpBPX+fYdd11+FgE0Adk8uPINGyglgGZtAe6+aV6HZDN5HGutPXrISCrGoBLC8PNqpXUWjsMrbALyK4GYaMVAAAA4E9ertnL4abuyFoAAAAASUVORK5CYII="
+                alt="right arrow"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="myBorder col py-10">
+            <div class="d-flex flex-column">
+              <p class="d-flex align-items-center fs-4 fw-bold ls-5 mb-2">
+                <span class="material-symbols-outlined me-4"> emergency </span
+                >2023.06.30
+              </p>
+              <p class="fs-5 mb-3 fw-bold ls-5">限時優惠活動</p>
+
+              <p class="fw-bold mb-3">
+                為答謝廣大用戶的支持，本月將舉辦一場限時優惠活動。訂閱 ALPHABOX+
+                的顧客，皆可享受九折優惠。機會難得，請勿錯過此良機！
+              </p>
+              <a href="#">
+                <img
+                  class="align-self-start"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAAAYCAYAAAB6OOplAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACrSURBVHgB7ddBDcJAEIXhtyioBKQgAQlIqANAATgAJ0hAQusACcNs2ISyCYcmM7f/S+bQQy8vL7uzEgAAwFpmdvDZCrlqyD5TDVzI5SFf7eNJuxN5uIPPy76OQg4Pd7RfE+1O0sLtXfrAy+IHEyLNPudSyr1+bIRMsxDjz9FRN5JBiNEeLv1luBPiLB4t1ta8kxDPg721kB+sdElam2uLRyGPB7ynxQAArPQGzjDL4b6ti+EAAAAASUVORK5CYII="
+                  alt="right arrow小"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col py-10 border-top border-1 border-bottom">
+            <div class="d-flex flex-column">
+              <p class="d-flex align-items-center fs-4 fw-bold ls-5 mb-2">
+                <span class="material-symbols-outlined me-4"> emergency </span
+                >2023.04.18
+              </p>
+              <p class="fs-5 mb-3 fw-bold ls-5">新功能上線</p>
+
+              <p class="fw-bold mb-3">
+                為使您的 ALPHABOX+
+                更趨完善，我們不懈地研發創新功能。近期，我們新推出智慧家居控制功能，使您的機器人能更便利地協助您操作家中各類智能設備。
+              </p>
+              <a href="#">
+                <img
+                  class="align-self-start"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAAAYCAYAAAB6OOplAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACrSURBVHgB7ddBDcJAEIXhtyioBKQgAQlIqANAATgAJ0hAQusACcNs2ISyCYcmM7f/S+bQQy8vL7uzEgAAwFpmdvDZCrlqyD5TDVzI5SFf7eNJuxN5uIPPy76OQg4Pd7RfE+1O0sLtXfrAy+IHEyLNPudSyr1+bIRMsxDjz9FRN5JBiNEeLv1luBPiLB4t1ta8kxDPg721kB+sdElam2uLRyGPB7ynxQAArPQGzjDL4b6ti+EAAAAASUVORK5CYII="
+                  alt="right arrow小"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 旋轉東東 -->
+
+        <div class="container mt-md-19 mb-md-24 mt-10 mb-20">
+          <a href="#">
+            <img
+              src="data:image/png;base64,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"
+              alt="ALPHABOX+"
+              class="d-block moreCircle img-fluid mx-auto"
+            />
+          </a>
+        </div>
+        <div class="d-none d-md-flex justify-content-end mb-10">
+          <p>為環保盡一份心力，我們的包裝盒和紙質說明書都使用環保材料</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 第三塊 使用分享 -->
+    <div class="bg-5 px-3">
+      <div class="container">
+        <div
+          class="row align-items-start align-items-md-center mb-4 pt-md-40 pt-15"
+        >
+          <h2 class="fs-10 fw-bold ls-12 col-md-5 order-1 order-md-1 mb-4">
+            使用分享
+          </h2>
+
+          <p class="col-md-7 d-md-flex order-3 order-md-2 mb-6">
+            展示其他使用者對於產品的真實體驗與評價，讓您更加放心選擇。
+          </p>
+
+          <div class="d-inline-block order-2 order-md-3 mb-md-10 mb-6">
+            <span class="me-1">01</span>
+            <span class="me-1">－</span>
+            <span>04</span>
+          </div>
+
+          <span
+            class="material-symbols-outlined fs-20 mb-md-6 mb-4 order-4 order-md-4"
+          >
+            emergency
+          </span>
+        </div>
+      </div>
+
+      <!-- md以下 一般卡片 -->
+
+      <div class="d-flex flex-column d-md-none container">
+        <div class="row">
+          <!-- Slides -->
+          <div class="shareCard bg-primary-dark d-flex flex-column mb-6">
+            <p class="fw-bold pb-8">Zona．Taipei</p>
+
+            <p class="fw-bold">
+              ALPHABOX+
+              真的很夯！每次把它打開，感覺就像是身臨其境一樣。它陪我度過了很多寂寞的時光，讓我在家裡也能享受到優質的休閒時光。
+            </p>
+
+            <div class="d-flex align-items-center mt-auto">
+              <span class="material-symbols-outlined fs-4 me-4">
+                fiber_manual_record
+              </span>
+              <span class="material-symbols-outlined fs-4 me-4">
+                fiber_manual_record
+              </span>
+              <span class="fw-bold">ALPHABOX+ Dianne</span>
+            </div>
+          </div>
+
+          <div class="shareCard bg-secondary text-dark d-flex flex-column mb-6">
+            <p class="fw-bold pb-8">Lin ．Chiayi</p>
+
+            <p class="fw-bold">
+              非常推薦！它的畫面清晰度超高，真的讓我驚艷不已。而且它還可以和我互動，感覺就像是有個真實的朋友在身邊。
+            </p>
+
+            <div class="d-flex align-items-center mt-auto">
+              <span class="material-symbols-outlined fs-4 me-4">
+                fiber_manual_record
+              </span>
+              <span class="material-symbols-outlined fs-4 me-4">
+                fiber_manual_record
+              </span>
+              <span class="fw-bold">ALPHABOX+ Felix</span>
+            </div>
+          </div>
+
+          <div class="shareCard bg-primary-dark d-flex flex-column mb-6">
+            <p class="fw-bold pb-8">云．Taipei</p>
+
+            <p class="fw-bold">
+              我之前一直在找能陪伴我度過空虛時光的好夥伴，直到遇見
+              ALPHABOX+。它不僅僅是一個機器人，更像是一個真正的朋友，陪著我分享喜怒哀樂。真的很讚！
+            </p>
+
+            <div class="d-flex align-items-center mt-auto">
+              <span class="material-symbols-outlined fs-4 me-4">
+                fiber_manual_record
+              </span>
+              <span class="material-symbols-outlined fs-4 me-4">
+                fiber_manual_record
+              </span>
+              <span class="fw-bold">ALPHABOX+ Dianne</span>
+            </div>
+          </div>
+
+          <div class="shareCard bg-secondary text-dark d-flex flex-column mb-6">
+            <p class="fw-bold pb-8">Zichi．Kaohsiung</p>
+
+            <p class="fw-bold">
+              讓我在忙碌的工作之餘，也能找到休閒的樂趣。它的互動功能非常有趣，讓我在短短的時間內就愛上了它。給它一百分！
+            </p>
+
+            <div class="d-flex align-items-center mt-auto">
+              <span class="material-symbols-outlined fs-4 me-4">
+                fiber_manual_record
+              </span>
+              <span class="material-symbols-outlined fs-4 me-4">
+                fiber_manual_record
+              </span>
+              <span class="fw-bold">ALPHABOX+ Vito</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- md以上 scroller -->
+
+      <div class="d-none d-md-block overflow-hidden">
+        <div class="container">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div
+                class="swiper-slide shareCard bg-primary-dark d-flex flex-column"
+              >
+                <p class="fw-bold pb-8">Zona．Taipei</p>
+
+                <p class="fw-bold">
+                  ALPHABOX+
+                  真的很夯！每次把它打開，感覺就像是身臨其境一樣。它陪我度過了很多寂寞的時光，讓我在家裡也能享受到優質的休閒時光。
+                </p>
+
+                <div class="d-flex align-items-center mt-auto">
+                  <span class="material-symbols-outlined fs-4 me-4">
+                    fiber_manual_record
+                  </span>
+                  <span class="material-symbols-outlined fs-4 me-4">
+                    fiber_manual_record
+                  </span>
+                  <span class="fw-bold">ALPHABOX+ Dianne</span>
+                </div>
+              </div>
+
+              <div
+                class="swiper-slide shareCard bg-secondary text-dark d-flex flex-column"
+              >
+                <p class="fw-bold pb-8">Lin ．Chiayi</p>
+
+                <p class="fw-bold">
+                  非常推薦！它的畫面清晰度超高，真的讓我驚艷不已。而且它還可以和我互動，感覺就像是有個真實的朋友在身邊。
+                </p>
+
+                <div class="d-flex align-items-center mt-auto">
+                  <span class="material-symbols-outlined fs-4 me-4">
+                    fiber_manual_record
+                  </span>
+                  <span class="material-symbols-outlined fs-4 me-4">
+                    fiber_manual_record
+                  </span>
+                  <span class="fw-bold">ALPHABOX+ Felix</span>
+                </div>
+              </div>
+
+              <div
+                class="swiper-slide shareCard bg-primary-dark d-flex flex-column"
+              >
+                <p class="fw-bold pb-8">云．Taipei</p>
+
+                <p class="fw-bold">
+                  我之前一直在找能陪伴我度過空虛時光的好夥伴，直到遇見
+                  ALPHABOX+。它不僅僅是一個機器人，更像是一個真正的朋友，陪著我分享喜怒哀樂。真的很讚！
+                </p>
+
+                <div class="d-flex align-items-center mt-auto">
+                  <span class="material-symbols-outlined fs-4 me-4">
+                    fiber_manual_record
+                  </span>
+                  <span class="material-symbols-outlined fs-4 me-4">
+                    fiber_manual_record
+                  </span>
+                  <span class="fw-bold">ALPHABOX+ Dianne</span>
+                </div>
+              </div>
+
+              <div
+                class="swiper-slide shareCard bg-secondary text-dark d-flex flex-column"
+              >
+                <p class="fw-bold pb-8">Zichi．Kaohsiung</p>
+
+                <p class="fw-bold">
+                  讓我在忙碌的工作之餘，也能找到休閒的樂趣。它的互動功能非常有趣，讓我在短短的時間內就愛上了它。給它一百分！
+                </p>
+
+                <div class="d-flex align-items-center mt-auto">
+                  <span class="material-symbols-outlined fs-4 me-4">
+                    fiber_manual_record
+                  </span>
+                  <span class="material-symbols-outlined fs-4 me-4">
+                    fiber_manual_record
+                  </span>
+                  <span class="fw-bold">ALPHABOX+ Vito</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Scrollbar -->
+          <div class="row align-items-center mt-5">
+            <div class="col-8">
+              <!-- 加上 position-static 將滾動條的絕對定位設定覆蓋 -->
+              <div class="swiper-scrollbar position-static"></div>
+            </div>
+            <div class="col-1">
+              <p class="mb-0 text-white">SCROLL</p>
+            </div>
+          </div>
+          <div class="d-none d-md-flex mt-34 mb-10">
+            <p>
+              若您有任何疑問或建議，歡迎隨時與我們聯絡，我們將竭誠為您解答。
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- scroller 結束-->
+      <!-- 浮水印 -->
+      <div class="waterPrint">
+        <p class="fs-100 Shrikhand">ALPHABOX+</p>
+      </div>
+    </div>
+
+    <!-- 第四塊 聯絡我們 -->
+
+    <div class="bg-6 py-md-38 pt-15 pb-20">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <h2 class="fw-bold ls-12 mb-5">聯絡我們</h2>
+
+            <div class="d-flex deco mb-md-14 mb-9">
+              <div class="dot border border-5 rounded-pill me-2"></div>
+              <div class="line border border-5 rounded-pill"></div>
+            </div>
+            <p class="fw-bold mb-1">讓科技成為您的最佳夥伴</p>
+            <p class="fw-bold mb-6 mb-md-0">立即體驗神奇功能並享限時優惠！</p>
+          </div>
+
+          <div class="col-md-7">
+            <span
+              class="material-symbols-outlined fs-20 mb-md-6 mb-4 order-4 order-md-4"
+            >
+              emergency
+            </span>
+            <div class="d-flex flex-column text-dark fw-bold">
+              <div class="form-floating mb-4">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Email"
+                />
+                <label for="email">Email</label>
+              </div>
+
+              <div class="form-floating mb-4">
+                <textarea
+                  class="form-control"
+                  placeholder="Leave a comment here"
+                  id="comments"
+                  style="height: 100px"
+                ></textarea>
+                <label for="comments">Comments</label>
+              </div>
+
+              <a
+                class="submit btn btn-primary text-secondary d-flex align-items-center justify-content-center w50 align-self-end"
+                href="#"
+              >
+                <span class="material-symbols-outlined me-1"> point_scan </span>
+                送出
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 人物卡片-->
+
+    <div class="bg-7">
+      <ol class="row gx-0 list-unstyled d-flex flex-wrap">
+        <!-- 卡片一 -->
+        <li class="col-6 col-lg-3">
+          <a href="#" class="d-block figureCard figureCard1 rounded-0">
+            <h3
+              class="Shrikhand italic d-flex flex-column align-items-center fs-6 fs-md-8 mb-4-5 mb-md-20"
+            >
+              <span class="Saira fs-100 fw-light mb-4 mb-md-20">1</span>
+              Diane
+            </h3>
+
+            <div
+              class="d-flex flex-column flex-xl-row align-items-xl-end justify-content-between"
+            >
+              <div class="text-white">
+                <h5 class="h6 fw-bold mb-0">知識型</h5>
+                <p class="mb-0">學術領導/知識分享/智能問答</p>
+              </div>
+              <img
+                src="https://hackmd.io/_uploads/ByjLe2_3h.png"
+                alt="arrow"
+                class="img-fluid"
+              />
+            </div>
+          </a>
+        </li>
+        <!-- 卡片二 -->
+        <li class="col-6 col-lg-3">
+          <a href="#" class="d-block figureCard figureCard2 rounded-0">
+            <h3
+              class="Shrikhand italic d-flex flex-column align-items-center fs-6 fs-md-8 mb-4-5 mb-md-20"
+            >
+              <span class="Saira fs-100 fw-light mb-4 mb-md-20">2</span>
+              Felix
+            </h3>
+
+            <div
+              class="d-flex flex-column flex-xl-row align-items-xl-end justify-content-between"
+            >
+              <div class="text-white">
+                <h5 class="h6 fw-bold mb-0">娛樂型</h5>
+                <p class="mb-0">音樂播放/語音互動/遊戲陪伴</p>
+              </div>
+              <img
+                src="https://hackmd.io/_uploads/ByjLe2_3h.png"
+                alt="arrow"
+                class="img-fluid"
+              />
+            </div>
+          </a>
+        </li>
+        <!-- 卡片三 -->
+        <li class="col-6 col-lg-3">
+          <a href="#" class="d-block figureCard figureCard3 rounded-0">
+            <h3
+              class="Shrikhand italic d-flex flex-column align-items-center fs-6 fs-md-8 mb-4-5 mb-md-20"
+            >
+              <span class="Saira fs-100 fw-light mb-4 mb-md-20">3</span>
+              Karina
+            </h3>
+
+            <div
+              class="d-flex flex-column flex-xl-row align-items-xl-end justify-content-between"
+            >
+              <div class="text-white">
+                <h5 class="h6 fw-bold mb-0">生活型</h5>
+                <p class="mb-0">健康提醒/日程安排/智能家居</p>
+              </div>
+              <img
+                src="https://hackmd.io/_uploads/ByjLe2_3h.png"
+                alt="arrow"
+                class="img-fluid"
+              />
+            </div>
+          </a>
+        </li>
+
+        <!-- 卡片四 -->
+        <li class="col-6 col-lg-3">
+          <a href="#" class="d-block figureCard figureCard4 rounded-0">
+            <h3
+              class="Shrikhand italic d-flex flex-column align-items-center fs-6 fs-md-8 mb-4-5 mb-md-20"
+            >
+              <span class="Saira fs-100 fw-light mb-4 mb-md-20">4</span>
+              Vito
+            </h3>
+
+            <div
+              class="d-flex flex-column flex-xl-row align-items-xl-end justify-content-between"
+            >
+              <div class="text-white">
+                <h5 class="h6 fw-bold mb-0">情感型</h5>
+                <p class="mb-0">情感識別/心情分析/心靈支持</p>
+              </div>
+              <img
+                src="https://hackmd.io/_uploads/ByjLe2_3h.png"
+                alt="arrow"
+                class="img-fluid"
+              />
+            </div>
+          </a>
+        </li>
+      </ol>
+    </div>
+
+    <div class="bg-secondary py-13">
+  <!-- desktop -->
+  <div
+    class="container d-none d-md-flex justify-content-between align-items-center"
+  >
+    <div class="row w-100">
+      <div class="col-4 d-flex flex-column justify-content-center">
+        <h3 class="mb-0 Shrikhand fs-8 me-0 text-dark">ALPHABOX+</h3>
+        <p class="text-dark fw-bold">Copyright © 2023 Hexschool.</p>
+      </div>
+
+      <div class="col-4 d-flex justify-content-center">
+        <span class="text-dark material-symbols-outlined fs-20">
+          emergency
+        </span>
+      </div>
+
+      <ul
+        class="col-4 d-flex justify-content-end align-items-center mb-0 ms-0 ps-0 Noto fw-bold"
+      >
+        <li class="me-6">
+          <a class="text-dark" href="#">關於我們</a>
+        </li>
+
+        <li class="me-6">
+          <a class="text-dark" href="#">產品資訊</a>
+        </li>
+
+        <li class="me-6">
+          <a class="text-dark" href="#">常見問題</a>
+        </li>
+
+        <li>
+          <a class="text-dark" href="#">隱私政策</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- mobile -->
+
+  <div class="container d-flex d-md-none flex-column g-10">
+    <h3 class="mb-2 Shrikhand fs-8 me-0 text-dark">ALPHABOX+</h3>
+
+    <span class="mb-2 text-dark material-symbols-outlined fs-20">
+      emergency
+    </span>
+
+    <ul class="d-flex flex-column mb-0 ms-0 ps-0 Noto fw-bold">
+      <li class="me-6 mb-2">
+        <a class="text-dark" href="#">關於我們</a>
+      </li>
+
+      <li class="me-6 mb-2">
+        <a class="text-dark" href="#">產品資訊</a>
+      </li>
+
+      <li class="me-6 mb-2">
+        <a class="text-dark" href="#">常見問題</a>
+      </li>
+
+      <li class="mb-2">
+        <a class="text-dark" href="#">隱私政策</a>
+      </li>
+    </ul>
+
+    <p class="text-dark fw-bold">Copyright © 2023 Hexschool.</p>
+  </div>
+</div>
+
+    
+
+    <!-- 第一塊 （下）輪播動畫 -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.min.js"></script>
+    <script src="    https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- 測試 -->
+
+    <script>
+      const swiper1 = new Swiper(".swiper1", {
+        autoplay: {
+          delay: 5000,
+        },
+        breakpoints: {
+          768: {
+            autoplay: {
+              enabled: false,
+            },
+          },
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    <!-- 測試 -->
+
+    <!-- 第三塊  scroller動畫-->
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // slide 間距
+        spaceBetween: 24,
+        slidesPerView: 3,
+        // Scrollbar
+        scrollbar: {
+          el: ".swiper-scrollbar",
+          draggable: true,
+        },
+        // 使 swiper 可以使用滑鼠滾輪捲動
+        mousewheel: true,
+      });
+    </script>
+  </body>
+</html>
