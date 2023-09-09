@@ -1,0 +1,257 @@
+// 旋轉動畫
+.alphaboxCircle {
+  width: 196px;
+  animation-name: rotate;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+// 第一塊banner的人物
+
+.mb-n18 {
+  margin-bottom: -72px;
+}
+
+// 78背景
+// .wrap {
+//   position: relative;
+
+// .bg1 {
+//   position: absolute;
+//   z-index: 1;
+// }
+
+.bg3 {
+  position: absolute;
+  z-index: 2;
+}
+
+.content {
+  position: absolute;
+  top: 0px;
+  z-index: 3;
+  width: 100%;
+  margin: 0 auto;
+}
+// }
+
+//
+
+// 輪播東東
+// body {
+//   background-color: #000000;
+//   font-family: "Noto Sans TC", sans-serif;
+//   color: #fff;
+// }
+
+// .font-Shrikhand {
+//   font-family: "Shrikhand", cursive;
+// }
+
+// .fs-96 {
+//   font-size: 96px;
+// }
+
+// .alphabox {
+//   height: 351px;
+//   background-image: url(https://hackmd.io/_uploads/Syn6HV7Tn.png);
+//   background-size: cover;
+//   background-position: center;
+//   padding: 16px;
+//   @media (min-width: 768px) {
+//     height: 560px;
+//     padding-right: 40px;
+//   }
+
+//   &-title {
+//     letter-spacing: 24px;
+//     @media (min-width: 768px) {
+//       letter-spacing: 32px;
+//       margin-right: -32px;
+//     }
+//   }
+// }
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+// // 箭頭
+// .swiper-button-next,
+// .swiper-button-prev {
+//   color: #fff;
+//   position: initial;
+//   margin-top: 0;
+//   width: auto;
+//   height: auto;
+//   &::after {
+//     content: "";
+//   }
+// }
+
+.carousel {
+  background-image: url(https://hackmd.io/_uploads/Syn6HV7Tn.png);
+  background-position: center;
+  background-size: cover;
+  max-width: 1296px;
+  height: 560px;
+  background-repeat: no-repeat;
+}
+
+.bar {
+  height: 40px;
+  background: rgb(112, 0, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(112, 0, 255, 1) 0%,
+    rgba(17, 0, 45, 1) 100%
+  );
+}
+
+// 第二塊 news
+// 移除行動裝置的邊框
+
+.myBorder {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+
+@media (max-width: 768px) {
+  .myBorder {
+    border-top: 1px solid white;
+    border-bottom: none;
+    border-right: none;
+  }
+}
+
+// 旋轉動畫
+.moreCircle:hover {
+  width: 132px;
+  animation-name: rotate;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+// 第三塊 使用分享
+
+// scroller 動畫
+
+.bg-primary-dark {
+  background-color: #380c7e;
+}
+
+.shareCard {
+  padding: 40px;
+  width: 416px;
+  height: 416px;
+}
+
+.swiper {
+  overflow: initial;
+}
+
+/* 滾動條可拖曳區塊的顏色 */
+.swiper-scrollbar-drag {
+  background-color: #ffffff;
+}
+
+/* 整個滾動條的背景顏色 */
+.swiper-scrollbar {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.waterPrint {
+  position: absolute;
+  bottom: -250px;
+  left: -250px;
+  color: #ffffff0a;
+}
+
+// 第四塊 聯絡我們
+.deco {
+  color: white;
+
+  .dot {
+    background-color: #fff;
+    width: 12px;
+    height: 12px;
+  }
+  .line {
+    background-color: #fff;
+    width: 124px;
+    height: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .submit {
+    width: 100%;
+  }
+}
+
+// 人物卡片
+
+.figureCard {
+  padding: 24px 12px;
+  background-color: #000;
+  background-blend-mode: darken;
+  background-image: url(../images/diane_vertical.png);
+  background-size: cover;
+  background-position: center;
+  transition: all 1s;
+  @media (min-width: 768px) {
+    padding: 24px 40px 56px;
+  }
+  &:hover {
+    background-color: rgb(255 122 127 / 0.2);
+  }
+}
+
+.figureCard1 {
+  background-image: url(../images/diane_vertical.png);
+  border-right: 1px solid white;
+}
+.figureCard2 {
+  background-image: url(../images/felix_vertical.png);
+  border-right: 1px solid white;
+}
+.figureCard3 {
+  background-image: url(../images/karina_verticalgle.png);
+  border-right: 1px solid white;
+}
+.figureCard4 {
+  background-image: url(../images/vito_vertical.png);
+}
+
+@media (max-width: 768px) {
+  .figureCard1 {
+    border-bottom: 1px solid white;
+  }
+  .figureCard2 {
+    border-right: 0px solid white;
+    border-bottom: 1px solid white;
+  }
+}
